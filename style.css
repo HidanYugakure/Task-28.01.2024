@@ -1,4 +1,5 @@
 *{
+    font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,30 +33,42 @@
     background-color: #196d87;
 }
 .Two {
+    width: 100%;
+    height: 500px;
     text-align: center;
     padding: 13 rem 0;
 }
 .Two h2{
     font-size: 2rem;
+    padding-top: 189px;
 }
 
 .Two p{
     font-size: 1.20 rem;
     font-weight: 300;
-    margin-bottom: 45 px;
+    margin-bottom: 60px;
 }
 .Two a{
-   
-    padding: 16px 33px;
-    border-radius: 4px;
-    margin-bottom: 25px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 14px 34px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    transition: 0.5s;
 }
-.Two > a{
+.Two .button a{
+display: inline-block;
 background-color: black;
 color: aliceblue;
 text-decoration: none;
 padding: 14px 34px;
-margin-bottom: 50px;
+margin-top: 30px;
+}
+
+#Firsta{
+    background-color: transparent;
+    color:#1D809F;
 }
 .Third{
     text-align: center;
@@ -76,33 +89,55 @@ margin-bottom: 50px;
     text-decoration: none;
     padding: 14px 34px;
     margin-bottom: 50px;
-    border-radius: 3.5px;
+    border-radius: 6px;
 }
 .Third a:hover{
     background-color: #196d87;}
-
 .Four {
-    padding: 13rem 20px;
+    width: 100%;
     text-align: center;
+    background-color: #1D809F;
+    height: 200px;
 }
 .Four h2{
-    margin-bottom: 1.5rem !important;
+    color: white;
+    margin-bottom: 1.5rem;
     font-size: 2rem;
-    margin-top: 0;
+    padding-top: 50px;
     margin-bottom: 0.5rem;
     font-weight: 700;
     line-height: 1.2;
     font-size: 1.5em;
     font-weight: bold;
-    text-align: center 
+    text-align: center;
 }
-.Four a{
-    background-color:#1D809F;
-    color: aliceblue;
+.Four .content4{
+    margin-top: 1.5rem;
+}
+#second-btn{
+    color: black;
+    background-color: white;
     text-decoration: none;
     padding: 14px 34px;
     margin-bottom: 50px;
     border-radius: 3.5px;
+    transition: 0.5s;
+}
+#second-btn:hover{
+    background-color: #424649;
+}
+#first-btn{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 14px 34px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+#first-btn:hover{
+    background-color: #424649;
+    cursor: pointer;
 }
 
 
